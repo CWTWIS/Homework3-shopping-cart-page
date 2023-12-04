@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework3-shopping-cart</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="greybg">
+    <nav class="greybg flex flex-r just-con-sb ali-c">
+        <div class="comlogo flex ali-c greycolor font-bold">
+            <img src="./pics/logo.png" alt="logo" class="logo pad5p">
+            <span class="blackcolor bloderfont font-bold">Job</span><span>&nbsp;</span> Passcard
+        </div>
+        <div class="APP flex flex-r ali-c">
+                <a href="#" class="blackcolor f-15 t-dec-no font-bold bor-rad10px pad5px m05px">ABOUT&nbsp;US</a>
+                <a href="#" class="blackcolor f-15 t-dec-no font-bold bor-rad10px pad5px m05px">PASSCARD</a>
+                <a href="#" class="blackcolor f-15 t-dec-no font-bold bor-rad10px pad5px m05px">PROFILE</a>
+        </div>
+        <div class="LS navleft ali-c flex just-con-c ali-c m05px">
+            <img src="./pics/search-svgrepo-com.png" alt="" class="m05px">
+            <div class="noti posi-re flex">
+                <img src="./pics/cart-shopping-svgrepo-com.png" alt="" class="m05px">
+                <div class="reddot posi-ab bor-rad50pc flex ali-c just-con-c"><p class="f-10 t-c whitecolor">9</p></div>
+            </div>
+            <a href="#" class="blackcolor f-15 t-dec-no  font-bold  bor-rad10px pad5px m05px" >LOGIN</a><p class="m05px">|</p>
+            <a href="#" class="blackcolor f-15 t-dec-no  font-bold  bor-rad10px pad5px m05px" >SIGN&nbsp;UP</a>
+        </div>
+    </nav>
+
+    <div class="subhead">
+        <h1 class="flex pad-l-r100 pad-l-r">My Cart</h1>
+    </div>
+
+    <div class="cartcart flex just-con-sb ali-fs pad-l-r">
+        <div class="leftcart flex flex-c just-con-fe">
+            <div class="item flex just-con-sb ali-c box-sha whitebg bor-rad10px g3p pad3p">
+                <img src="./pics/delete-btn.png" class="bin flex flex-c flex flex-c m-w-10p m-h-10p pad">    
+                <div class="ggdocmid flex flex-c bor-rad10px m-w-mid-item m-h-mid-item pad5p g05rem">
+                    <img src="./pics/doc-text-svgrepo-com.png" class="whitebg whitebg pad5px bor-rad5px">
+                    <p class="whitecolor f-20">Google Doc</p>
+                    <p class="whitecolor f-15">Used for business</p>
+                </div>
+                <div class="ggdocleft flex flex-c just-con-c m-w-l-item m-h-l-item pad5p bor-rad10px g1rem">
+                    <h2 class="blackcolor font-w100 f-20">Google Doc</h2>
+                    <form class="dotselect flex just-con-sb ali-c">
+                        <div class="dotall flex">
+                            <button class="dotgreen greenbg"></button>
+                            <button class="dotgrey greybg"></button>
+                            <button class="dotgrey greybg"></button>
+                            <button class="dotgrey greybg"></button>
+                        </div>
+                        <form>
+                            <select name="level" id="level">
+                                <option value="1-3">LV 1-3</option>
+                                <option value="2-3">LV 2-3</option>
+                                <option value="3-3">LV 3-3</option>
+                            </select>
+                        </form>
+                    </form>
+                    <h3 class="greycolor font-w100">THB150</h3>
+                </div>
+            </div>
+            <div class="item flex just-con-sb ali-c box-sha whitebg bor-rad10px g3p pad3p">
+                <img src="./pics/delete-btn.png" class="bin flex flex-c flex flex-c m-w-10p m-h-10p pad">  
+                <div class="ggslidemid flex flex-c just-con-c bor-rad10px m-w-mid-item m-h-mid-item pad5p g05rem">
+                    <img src="./pics/doc-richtext-svgrepo-com.png" class="slidepng whitebg pad5px bor-rad5px">
+                    <p class="whitecolor f-20">Google Slides</p>
+                    <p class="whitecolor f-15">Used for business</p>
+                </div>
+                <div class="ggdocleft flex flex-c just-con-c m-w-l-item m-h-l-item pad5p bor-rad10px g1rem" >
+                    <h2 class="blackcolor font-w100 f-20">Google Slides</h2>
+                    <div class="dotselect flex just-con-sb ali-c">
+                        <div class="dotall flex just-con-sa ">
+                            <button class="dotgreen greenbg"></button>
+                            <button class="dotgreen greenbg"></button>
+                            <button class="dotgreen greenbg"></button>
+                            <button class="dotgrey greybg"></button>
+                        </div>
+                        <form>
+                            <select name="level" id="level">
+                                <option value="1-3">LV 1-3</option>
+                                <option value="2-3">LV 2-3</option>
+                                <option value="3-3">LV 3-3</option>
+                            </select>
+                        </form>
+                    </div>
+                    <h3 class="greycolor font-w100">THB150</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightcart flex flex-c pad3p bor-rad10px g1rem">
+            <div class="orderinfo flex"><h2 class="flex">Order Info</h2></div>
+            <div class="subtotal flex just-con-sb">
+                <h3 class="greycolor font-w100">Subtotal</h3>
+                <h3 class="greycolor darkbluecolor font-w100">THB 300</h3>
+            </div>
+            <form class="promocode flex just-con-sb ali-c ">
+                <img src="./pics/cupon-icon.png" alt="" class="coupon">
+                <input type="text" placeholder="Promotion code" class="bor-rad10px">
+                <button class="bor-rad10px"><p class="greencoloor font-bold m10px">APPLY</p></button>
+            </form>
+            <hr class="ligraycolor">
+            <div class="totalpay flex flex-r just-con-sb ali-c">
+                <h3 class="">Total payment</h3>
+                <h1 class="greencoloor font-bolds">THB 300</h1>
+            </div>
+            <button class="checkout greenbg bor-rad10px box-sha"><p class="font-bold darkbluecolor font-bolder m10px">LOG IN TO CHECK OUT</p></button>
+        </div>
+    </div>
+</body>
+</html>
